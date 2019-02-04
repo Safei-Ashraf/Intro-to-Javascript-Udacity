@@ -6,3 +6,5 @@
 
 // this expression equals 4, change it to equal 42
 console.log(40+4-2*1);
+
+// you can really use any set of numbers as long as you use 3 different operators, it will evaluate to correct answer.
