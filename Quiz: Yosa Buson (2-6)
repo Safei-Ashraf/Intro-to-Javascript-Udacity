@@ -1,0 +1,8 @@
+/*
+ * Programming Quiz: Yosa Buson (2-6)
+ */
+
+var haiku ="Blowing from the west \nFallen leaves gather \nIn the east."
+console.log(haiku);
+
+// we used the new line breaker to arrange our text \n to make sure every phrase starts a new line on its own.
