@@ -26,7 +26,7 @@ if(day<=19){sign="Aries"}
 else {sign="Taurus"}
 break;
 case "May":
-if(days <=20){sign="Taurus"}
+if(day <=20){sign="Taurus"}
 else{sign="Gemini"}
 break;
 case "June":
@@ -42,7 +42,7 @@ if (day<=22){sign="Leo"}
 else{sign="Virgo"}
 break;
 case "September":
-if(days<=22){sign="Virgo"}
+if(day<=22){sign="Virgo"}
 else{sign="Libra"}
 break;
 case "October":
