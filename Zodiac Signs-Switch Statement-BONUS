@@ -1,0 +1,61 @@
+//You can change the var values and run the code in console to get the result//
+
+var month="March";
+var day=20;
+var sign="";
+
+//code starts here //
+
+switch (month) {
+  case "Jan":
+  if (day <=19){sign="Capricorn"}
+  else{sign="Aquarius"} 
+    break;
+    
+case "Feb":
+if(day <=18 ) {sign="Aquarius"}
+else {sign="Pisces"}
+break;
+
+case "March":
+if(day<=20){sign="Pisces"}
+else{sign="Aries"}
+break;
+case "April":
+if(day<=19){sign="Aries"}
+else {sign="Taurus"}
+break;
+case "May":
+if(days <=20){sign="Taurus"}
+else{sign="Gemini"}
+break;
+case "June":
+if(day<=20) {sign="Gemini"}
+else{"Cancer"}
+break;
+case "July":
+if(day<=22){sign="Cancer"}
+else{sign="Leo"}
+break;
+case "August":    
+if (day<=22){sign="Leo"}
+else{sign="Virgo"}
+break;
+case "September":
+if(days<=22){sign="Virgo"}
+else{sign="Libra"}
+break;
+case "October":
+if ( day <=22) {sign="Libra"}
+else{sign="Scorpio"}
+break;
+case "November":
+if(day<=21){sign="Scorpio"}
+else{sign="Sagittarius"}
+break;
+case "December":
+if(day<=21){sign="Sagittarius"}
+else{sign="Capricorn"}
+}
+
+console.log(sign);
