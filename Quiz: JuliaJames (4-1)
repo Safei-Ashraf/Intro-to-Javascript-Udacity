@@ -1,0 +1,15 @@
+/*
+ * Programming Quiz: JuliaJames (4-1)
+ */
+
+var x = 1;
+
+
+while (x<=100) {
+  if((x%3===0)&&(x%5!==0)){console.log("Julia");}
+  if((x%5===0) &&(x%3!==0)){console.log("James");}
+  if((x%3===0) && (x%5===0)){console.log("Julia James");}
+  if((x%3!==0) && (x%5!==0)){console.log(x);}
+
+  x=x+1;
+}
