@@ -1,0 +1,12 @@
+var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
+donuts.push("powdered");
+//returns 7 which is the array length after adding "powdered".//
+
+//FOR LOOP OVER THAT ARRAY//
+
+for (var i=0; i<donuts.length;++i){
+donuts[i]+="hole";    // THIS Will add the string" hole" to each element in the array//
+donuts[i]=donuts[i].toUpperCase();} // this will turn all strings in array to upper case//
+
+
+
