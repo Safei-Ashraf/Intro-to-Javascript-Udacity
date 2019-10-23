@@ -3,13 +3,17 @@
  */
 
 var x = 1;
+var name;
 
-
-while (x<=100) {
-  if((x%3===0)&&(x%5!==0)){console.log("Julia");}
-  if((x%5===0) &&(x%3!==0)){console.log("James");}
-  if((x%3===0) && (x%5===0)){console.log("Julia James");}
-  if((x%3!==0) && (x%5!==0)){console.log(x);}
-
-  x=x+1;
+while (x <= 20) {
+                 if(x % 3 === 0) 
+                    { name = "Julia"};
+                 if (x % 5 === 0)
+                    { name = "James" };
+                 if (x % 3 === 0 && x % 5 === 0)
+                    { name = "JuliaJames"};
+                 if (x % 3 !== 0 && x % 5 !== 0 )
+                    { name = x};
+                console.log(name);
+                x++;
 }
