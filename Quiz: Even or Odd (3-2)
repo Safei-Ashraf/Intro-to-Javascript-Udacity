@@ -8,10 +8,16 @@
  */
 
 // change the value of `number` to test your if...else statement
-var number = 2;
+var num = 29;
 
-if (number%2 ===0) {console.log("even");
-    
-} else { console.log("odd")
-
+if(num<=0){
+    console.log("please add a number more than 0");
+}
+else if( num % 2 === 0 )
+{
+    console.log("Even");
+}
+else
+{
+    console.log("Odd");
 }
