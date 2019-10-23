@@ -13,10 +13,11 @@
  */
 
 // change the values of `eatsPlants` and `eatsAnimals` to test your code
-var eatsPlants = 0;
-var eatsAnimals = 0;
+var eatsPlants = false;
+var eatsAnimals = true;
 
-var category =(eatsPlants &&!eatsAnimals)?"herbivore":(!eatsPlants &&eatsAnimals)?"carnivore":
-(eatsPlants &&eatsAnimals)?"omnivore":"undefined"
+var category = (eatsPlants === true && eatsAnimals === false) ? "herbiover" : 
+               (eatsPlants === false && eatsAnimals === true) ? "carniover" :
+               (eatsPlants === true && eatsAnimals === true)  ? "omnivore"  : "Undefined";
 
 console.log(category);
