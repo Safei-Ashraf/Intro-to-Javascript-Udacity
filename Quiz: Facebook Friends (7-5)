@@ -1,0 +1,22 @@
+/*
+ * Programming Quiz: Facebook Friends (7-5)
+ */
+
+// your code goes here
+var facebookProfile ={
+    name:"Safei",
+    friends:7,
+    messages:["Hello","Hola", "Hell yeah!"],
+    postMessage: function (message){
+        this.messages.push("message");
+    },
+    deleteMessage: function (i){
+        this.messages.splice(i,1)
+    },
+    addFriend: function(){
+        this.friends++;
+    },
+    removeFriend: function(){
+                this.friends--;
+    }
+};
