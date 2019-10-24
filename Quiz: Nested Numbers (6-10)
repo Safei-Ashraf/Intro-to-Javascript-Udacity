@@ -21,10 +21,10 @@ var numbers = [
 ];
 
 // your code goes here
-for (i=0; i<numbers.length; ++i){
-    for ( r=0; r<numbers[i].length; ++r){
-        if ( numbers[i][r]%2===0){numbers[i][r]="even"}
-        else{numbers[i][r]="odd"}
+for(row = 0; row < numbers.length;++row){
+    for (column = 0; column < numbers[row].length; ++column){
+        if(numbers[row][column]%2 === 0){numbers[row][column] = "even"}
+        else{numbers[row][column] = "odd"}
     }
-    console.log(numbers);
 }
+console.log(numbers);
